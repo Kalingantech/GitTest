@@ -19,5 +19,7 @@ public class MainActivity extends AppCompatActivity {
         String time = String.valueOf(calendar.getTime());
         Toast.makeText(MainActivity.this,time,Toast.LENGTH_LONG).show();
 
+
+        Toast.makeText(MainActivity.this,"24",Toast.LENGTH_LONG).show();
     }
 }
