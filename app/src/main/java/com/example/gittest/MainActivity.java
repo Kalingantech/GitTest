@@ -3,6 +3,7 @@ package com.example.gittest;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import java.util.Calendar;
@@ -21,5 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         Toast.makeText(MainActivity.this,"24",Toast.LENGTH_LONG).show();
+        //adding a succhessuflu
+        Log.d("R-adapter","Added");
+
     }
 }
